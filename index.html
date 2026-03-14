@@ -160,7 +160,7 @@ to{transform:scale(3);opacity:0}
 
 <!-- INTRO -->
 <div id="intro">
-Jaisa <span class="introHeart">❤️</span> Arman
+Arman <span class="introHeart">❤️</span> Jaisa
 <div style="font-size:20px;margin-top:10px;">Our Love Story</div>
 </div>
 
@@ -220,7 +220,8 @@ const hours=Math.floor((diff/(1000*60*60))%24);
 const minutes=Math.floor((diff/(1000*60))%60);
 const seconds=Math.floor((diff/1000)%60);
 
-loveTime.innerHTML=days+" days "+hours+" hours "+minutes+" minutes "+seconds+" seconds";
+document.getElementById("loveTime").innerHTML =
+days+" days "+hours+" hours "+minutes+" minutes "+seconds+" seconds";
 
 }
 
@@ -232,8 +233,12 @@ function yesClick(){
 document.body.innerHTML=`
 <div style="display:flex;justify-content:center;align-items:center;height:100vh;flex-direction:column;background:linear-gradient(135deg,#ff758c,#ff7eb3)">
 <h1>I Love You Jaisa ❤️</h1>
-<h2>Since 13 Oct 2025 you made my life beautiful 💕</h2>
+<h3>Since 13 Oct 2025 you made my life beautiful 💕</h3>
 <h2>You Just Made Me The Happiest Person Alive 💖</h2>
+<h2>Every moment with you is special ❤️</h2>
+<h2>You are my favorite place in the world 💕</h2>
+<h2>My heart chose you forever 💖</h2>
+<h2>Life is beautiful because of you 🌹</h2>
 </div>
 `;
 
